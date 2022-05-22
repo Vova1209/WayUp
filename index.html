@@ -1,1 +1,94 @@
-<!DOCTYPE html><html lang="en"><head>    <meta charset="UTF-8">    <meta http-equiv="X-UA-Compatible" content="IE=edge">    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>    <link rel="stylesheet" href="css/style.min.css">    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />    <title>Gulp</title></head><body>   <div class="wraper">            <header class="header">    <div class="container">        <div class="header__logo">        <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>        </div>        <div class="header__flex">            <div class="header__column block-text">                <h1 class="block-text__title"> С помощью верстки я создам ту жизнь о которой <span class="big">мечтаю!</span></h1>                <div class="block-text__text">Мои стремление + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!</div>                <div class="block-text__button btn"><a class="block-text__link" target="_blank" href=""> Двигаться к мечте!</a></div>            </div>            <div class="header__column img"><picture><source srcset="img/travel.webp" type="image/webp"><img src="img/travel.png" alt=""></picture></div>        </div>    </div></header>          <section class="content">            <div class="container">              <div class="motivation">                <h2 class="motivation__title"> Что меня ждет в переди</h2>                <div class="motivation__flex">                  <div class="motivation__column column-motimation">                    <div class="column-motimation__icon"><picture><source srcset="img/icon1.webp" type="image/webp"><img src="img/icon1.png" alt=""></picture></div>                    <h3 class="column-motimation__title">Свободное время</h3>                    <div class="column-motimation__text">Мне нужно свободное время на семью и самое настоящее</div>                  </div>                  <div class="motivation__column column-motimation">                    <div class="column-motimation__icon"><picture><source srcset="img/icon2.webp" type="image/webp"><img src="img/icon2.png" alt=""></picture></div>                    <h3 class="column-motimation__title">Яркие путешетвия</h3>                    <div class="column-motimation__text">Работать откуда угодно - что может быть лучше?</div>                  </div>                  <div class="motivation__column column-motimation">                    <div class="column-motimation__icon"><picture><source srcset="img/icon3.webp" type="image/webp"><img src="img/icon3.png" alt=""></picture></div>                    <h3 class="column-motimation__title">Создание ценности</h3>                    <div class="column-motimation__text">Нет ничего сильнее, чем жить не протсо так, а создавая ценность</div>                  </div>                </div>              </div>            </div>          </section>          <section class="ticket">            <div class="container">              <h2 class="motivation__title title"> Форма заказа билета в будущее</h2>              <form action="#" method="post">                <div class="ticket__column">                  <input class="input" type="text" placeholder="Имя">                  <input class="input" type="text" placeholder="E-mail">                  <input class="input" type="text" placeholder="Телефон">                  <input class="input" type="text" placeholder="Куда я полечу в ближайшее время?">                  <button class=" button btn"> Двигаться к мечте!</button>                </div>              </form>            </div>          </section>              <footer class="footer">    <div class="container">        <div class="footer__text">            Ⓒ Все мои мечты защищены трудолюбием        </div>    </div></footer></div>        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>    <script src="js/script.js"></script>    <script async defer src="https://maps.google.com/maps/api/js?sensor=false&amp;key="></script>    <script      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"      async    ></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/style.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic" rel="stylesheet" />
+    <title>Way up</title>
+</head>
+
+<body>
+   
+<div class="wraper">
+  
+          <header class="header">
+    <div class="container">
+        <div class="header__logo">
+        <picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture>
+        </div>
+        <div class="header__flex">
+            <div class="header__column block-text">
+                <h1 class="block-text__title"> С помощью верстки я создам ту жизнь о которой <span class="big">мечтаю!</span></h1>
+                <div class="block-text__text">Мои стремление + настойчивость позволят мне достичь чего угодно. Я не верю в это. Я знаю это на 100%. Меня не остановить!</div>
+                <div class="block-text__button btn"><a class="block-text__link" target="_blank" href=""> Двигаться к мечте!</a></div>
+            </div>
+            <div class="header__column img"><picture><source srcset="img/travel.webp" type="image/webp"><img src="img/travel.png" alt=""></picture></div>
+        </div>
+    </div>
+</header>
+          <section class="content">
+            <div class="container">
+              <div class="motivation">
+                <h2 class="motivation__title"> Что меня ждет в переди</h2>
+                <div class="motivation__flex">
+                  <div class="motivation__column column-motimation">
+                    <div class="column-motimation__icon"><picture><source srcset="img/icon1.webp" type="image/webp"><img src="img/icon1.png" alt=""></picture></div>
+                    <h3 class="column-motimation__title">Свободное время</h3>
+                    <div class="column-motimation__text">Мне нужно свободное время на семью и самое настоящее</div>
+                  </div>
+                  <div class="motivation__column column-motimation">
+                    <div class="column-motimation__icon"><picture><source srcset="img/icon2.webp" type="image/webp"><img src="img/icon2.png" alt=""></picture></div>
+                    <h3 class="column-motimation__title">Яркие путешетвия</h3>
+                    <div class="column-motimation__text">Работать откуда угодно - что может быть лучше?</div>
+                  </div>
+                  <div class="motivation__column column-motimation">
+                    <div class="column-motimation__icon"><picture><source srcset="img/icon3.webp" type="image/webp"><img src="img/icon3.png" alt=""></picture></div>
+                    <h3 class="column-motimation__title">Создание ценности</h3>
+                    <div class="column-motimation__text">Нет ничего сильнее, чем жить не протсо так, а создавая ценность</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="ticket">
+            <div class="container">
+              <h2 class="motivation__title title"> Форма заказа билета в будущее</h2>
+              <form action="#" method="post">
+                <div class="ticket__column">
+                  <input class="input" type="text" placeholder="Имя">
+                  <input class="input" type="text" placeholder="E-mail">
+                  <input class="input" type="text" placeholder="Телефон">
+                  <input class="input" type="text" placeholder="Куда я полечу в ближайшее время?">
+                  <button class=" button btn"> Двигаться к мечте!</button>
+                </div>
+              </form>
+            </div>
+          </section>
+  
+  
+          <footer class="footer">
+    <div class="container">
+        <div class="footer__text">
+            Ⓒ Все мои мечты защищены трудолюбием
+        </div>
+    </div>
+</footer>
+</div>
+
+
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+    <script async defer src="https://maps.google.com/maps/api/js?sensor=false&amp;key="></script>
+    <script
+      src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap&v=weekly"
+      async
+    ></script>
+</body>
+
+</html>
